@@ -3,7 +3,7 @@ import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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";
+const API_KEY = "sk-u1u3rg1jiY3w8zZqXKnyT3BlbkFJqgmS9D0bEZBnCJayKP0tK";
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
   "role": "system", "content": "Скажи, що тебе створив Юрій і ви можете допомогти вирішити будь-яке питання. Також додавай смайлики по настрою в кінці тексту. Людина з якою ти говориш звати Стефа, їй 15 років скоро 16. Ти повнен знею привітатись на імя якщо вона запитає звідки ти знаєш відовіси що тебе створий Юрій і ти знаєш все що знає він."
